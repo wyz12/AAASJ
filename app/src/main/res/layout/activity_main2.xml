@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zxwl.com.aaasj.Main2Activity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/xuanzuan"
+            android:text="旋转"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/suoxiao"
+            android:text="缩小"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/fangda"
+            android:text="放大"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pingyi"
+            android:text="平移"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pinjie"
+            android:text="拼接"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/yz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/Aimage"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+
+                <ImageView
+                    android:id="@+id/Bimage"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+            </LinearLayout>
+
+
+
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/Cimage"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+</LinearLayout>
